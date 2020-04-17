@@ -1,0 +1,16 @@
+
+a {
+  color: #8BA4A1;
+  text-decoration: underline;
+}
+.hero-image {
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.heading {
+  color: #8BA4A1;
+  display: block;
+  font-family: 'Dancing Script';
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
