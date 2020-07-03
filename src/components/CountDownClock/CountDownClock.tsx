@@ -6,18 +6,18 @@ import CountDownDate from "./CountDownDate";
 import './CountDownClock.css'
 
 export interface ClockProps {
-    text: string;
+    children: any;
     date: string;
 }
 
-const CountDownClock: React.FC<ClockProps> = ({text, date}: ClockProps) => {
+const CountDownClock: React.FC<ClockProps> = ({children, date}: ClockProps) => {
     const cssPrefix = 'CountDownClock';
 
     const renderer = (props: any) => <Clock {...props} />
 
     return (
         <div className={`${cssPrefix}__main`}>
-            <CountDownDate {...{text, date}} />
+            <CountDownDate {...{children, date}} />
             <Countdown date={date} renderer={renderer} />
         </div>
 

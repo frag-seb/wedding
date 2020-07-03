@@ -4,12 +4,13 @@ import './Content.css'
 
 interface Props {
     children: any
+    className?: string
 }
 
-const Content: React.FC<Props> = ({children}: Props) => {
+const Content: React.FC<Props> = ({children, className}: Props) => {
     const cssPrefix = 'Content'
     return (
-        <div className={`${cssPrefix}__main`}>
+        <div className={`${cssPrefix}__main ${className}`}>
             {children}
         </div>
     )

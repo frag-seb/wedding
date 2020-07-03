@@ -7,14 +7,17 @@ function MainNavigation() {
   return (
     <div className="HeaderStyles">
       <ul className={`MainNavigation-navi`}>
+          {/*<li>*/}
+          {/*  <Link to="/">Home</Link>*/}
+          {/*</li>*/}
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Wedding Day</Link>
           </li>
           <li>
-            <Link to="/info">Hotel</Link>
+              <Link to="/hotel">Hotel</Link>
           </li>
           <li>
-              <Link to="/wedding">Information</Link>
+              <Link to="/infos">Information</Link>
           </li>
         </ul>
     </div>

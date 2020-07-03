@@ -1,30 +1,30 @@
 import React from 'react';
-import Info from "./pages/Info";
+import Hotel from "./pages/Hotel";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Wedding from "./pages/Wedding";
+import Information from "./pages/Information";
 
 function App() {
-  console.log("Host URL"+process.env.PUBLIC_URL);
-
-  return (
-      <Router>
-          <div className="App">
-            <Switch>
-              <Route exact path='/'>
-                <Home />
-              </Route>
-              <Route exact path='/info'>
-                <Info />
-              </Route>
-                <Route exact path='/wedding'>
-                    <Wedding />
-                </Route>
-            </Switch>
-          </div>
-      </Router>
-  );
+    return (
+        <Router>
+            <div className="App">
+                <Switch>
+                    <Route exact path='/' >
+                        <Wedding />
+                    </Route>
+                    <Route exact path='/hotel'>
+                        <Hotel />
+                    </Route>
+                    <Route exact path='/infos'>
+                        <Information />
+                    </Route>
+                    <Route component={Home}/>
+                </Switch>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

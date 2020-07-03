@@ -1,9 +1,10 @@
 .HeaderStyles {
     font-family: 'Dancing Script';
+    font-weight: bold;
     display: flex;
     justify-content: center;
     color: #63796D;
-    line-height: 1.2;
+    line-height: 1.8rem;
     padding: 2rem 0 1.0rem 0;
     background-color: white;
     width: 100%;
@@ -19,7 +20,7 @@ ul.MainNavigation-navi > li {
 }
 
 ul.MainNavigation-navi > li a {
-    padding: 10px;
+    padding: 10px 15px;
     text-decoration: none;
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import {ClockProps} from "./CountDownClock";
+import Eyecatcher from "../Text/Eyecatcher";
 
 import './CountDownDate.css';
 
@@ -15,13 +16,13 @@ const formatDate = (date: Date) => {
 };
 
 
-const CountDownDate: React.FC<ClockProps> = ({ text, date }: ClockProps) => {
+const CountDownDate: React.FC<ClockProps> = ({ children, date }: ClockProps) => {
     const cssPrefix = 'CountDownDate';
 
     return (
         <div className={`${cssPrefix}__main`}>
-            <h2>{ text }</h2>
-            <span className={`${cssPrefix}__date`}>--- { formatDate(new Date(date)) } ---</span>
+            { children }
+            <span className={`${cssPrefix}__date`}> <Eyecatcher className={`${cssPrefix}__top`}>{ formatDate(new Date(date)) }</Eyecatcher> </span>
         </div>
     );
 }
