@@ -1,33 +1,33 @@
 .HeaderStyles {
-    font-family: 'Dancing Script';
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    color: #63796D;
-    line-height: 1.8rem;
-    padding: 2rem 0 1.0rem 0;
-    background-color: white;
-    width: 100%;
+  font-family: "Dancing Script";
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: #63796d;
+  line-height: 1.8rem;
+  padding: 2rem 0 1rem 0;
+  background-color: white;
+  width: 100%;
 }
 
 ul.MainNavigation-navi {
-    float: none;
-    text-align: left;
-    display: inline-block;
+  float: none;
+  text-align: left;
+  display: inline-block;
 }
 ul.MainNavigation-navi > li {
-    float: left;
+  float: left;
 }
 
 ul.MainNavigation-navi > li a {
-    padding: 10px 15px;
-    text-decoration: none;
+  padding: 10px 15px;
+  text-decoration: none;
 }
 
 ul.MainNavigation-navi > li a:hover {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 ul.MainNavigation-navi > li a:active {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }

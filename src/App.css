@@ -1,6 +1,5 @@
-
 a {
-  color: #8BA4A1;
+  color: #8ba4a1;
   text-decoration: underline;
 }
 .hero-image {
@@ -8,9 +7,9 @@ a {
   width: 100%;
 }
 .heading {
-  color: #8BA4A1;
+  color: #8ba4a1;
   display: block;
-  font-family: 'Dancing Script';
+  font-family: "Dancing Script";
   font-size: 2.8rem;
   margin-bottom: 2rem;
 }

@@ -1,18 +1,20 @@
-import React from 'react';
-import Layout from "../components/Container/Layout";
+import React from "react";
+import Layout from "../layout/Layout";
 import Content from "../components/Container/Content";
 
-import './Hotel.css';
+import "./Hotel.css";
+import HeadlineImage from "../components/Gallery/HeadlineImage";
 
 const Hotel: React.FC = () => {
-    const cssPrefix = 'Hotel';
+  const cssPrefix = "Hotel";
 
-    return (
-      <Layout>
-        <Content className={`${cssPrefix}__content`}>
-            <h4>Hotel</h4>
-        </Content>
-      </Layout>
-    )
-}
+  return (
+    <Layout>
+      <HeadlineImage />
+      <Content className={`${cssPrefix}__content`}>
+        <h4>Hotel</h4>
+      </Content>
+    </Layout>
+  );
+};
 export default Hotel;

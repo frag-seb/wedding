@@ -1,21 +1,21 @@
 .Eyecatcher__text span {
-    position: relative;
+  position: relative;
 }
 
 span.Eyecatcher__text span:before {
-    content: "";
-    background: #ece9e9;
-    width: 35px;
-    height: 1px;
-    position: absolute;
-    left: -50px;
+  content: "";
+  background: #ece9e9;
+  width: 35px;
+  height: 1px;
+  position: absolute;
+  left: -50px;
 }
 
 span.Eyecatcher__text span:after {
-    content: "";
-    background: #ece9e9;
-    width: 35px;
-    height: 1px;
-    position: absolute;
-    right: -50px;
+  content: "";
+  background: #ece9e9;
+  width: 35px;
+  height: 1px;
+  position: absolute;
+  right: -50px;
 }

@@ -4,7 +4,7 @@
 
 body {
   align-items: center;
-  background-color: #F8F6F4;
+  background-color: #f8f6f4;
   color: #282828;
   font-family: Lato;
   font-size: 1.6rem;
@@ -12,13 +12,11 @@ body {
   overflow: auto;
   margin: 0;
   padding: 0 0 8rem;
-  background: url(/img/backgroun_image.jpg) no-repeat top center;
-  background-size: cover;
   min-height: calc(100vh - 40px);
   justify-content: flex-end;
 }
 
-html{
+html {
   overflow-y: scroll;
 }
 
@@ -33,7 +31,8 @@ a:hover {
   cursor: pointer;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -43,7 +42,17 @@ ol, ul {
   width: 100%;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: Dancing Script;
   font-weight: normal;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
 }
