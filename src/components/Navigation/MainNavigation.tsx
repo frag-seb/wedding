@@ -7,9 +7,6 @@ function MainNavigation() {
   return (
     <div className="HeaderStyles">
       <ul className={`MainNavigation-navi`}>
-        {/*<li>*/}
-        {/*  <Link to="/">Home</Link>*/}
-        {/*</li>*/}
         <li>
           <Link to="/">Wedding Day</Link>
         </li>
