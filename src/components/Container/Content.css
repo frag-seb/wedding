@@ -1,7 +1,7 @@
 .Content__main {
-  max-width: 700px;
+  max-width: 840px;
   margin: 0 auto;
-  padding: 5px;
+  padding: 5px 30px 35px 30px;
   background: rgba(255, 255, 255, 0.7);
   min-height: 500px;
   background: #fff;
@@ -9,6 +9,22 @@
   box-shadow: 0px 3px 24px 0px rgba(0, 0, 0, 0.3);
   text-align: center;
   position: relative;
+  font-size: 0.9rem;
+}
+
+.Content__main h3 {
+  font-size: 1.6rem;
+  font-family: Dancing Script;
+  height: 50px;
+}
+
+.Content__main h4 {
+  font-size: 1.111rem;
+  font-family: Lato;
+}
+
+.Content__main p {
+  margin: 0;
 }
 
 .Content__main:before {

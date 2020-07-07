@@ -1,0 +1,21 @@
+.AddressBox__content {
+  width: 50%;
+  z-index: 10;
+}
+
+.AddressBox__body > div {
+  margin: 0 0 10px 0;
+}
+
+.AddressBox__contact {
+  margin: 10px 0 0 0;
+}
+.AddressBox__address span {
+  display: block;
+}
+
+@media only screen and (max-width: 780px) {
+  .AddressBox__content {
+    width: 100%;
+  }
+}

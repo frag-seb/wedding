@@ -1,3 +1,18 @@
 .Hotel__content {
   margin-top: 50px;
 }
+
+.Hotel__address_box {
+  display: flex;
+}
+
+.Hotel__top-space {
+  margin: 25px 0;
+}
+
+@media only screen and (max-width: 780px) {
+  .Hotel__address_box {
+    display: grid;
+    align-items: center;
+  }
+}
