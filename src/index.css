@@ -50,9 +50,27 @@ h4 {
   font-weight: normal;
 }
 
+.grid-2 {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-right: 1px solid #f8f6f4;
+  border-top: 1px solid #f8f6f4;
+}
+
+.grid-2 > span {
+  padding: 1px 8px;
+  border-left: 1px solid #f8f6f4;
+  border-bottom: 1px solid #f8f6f4;
+}
+
+
 @media only screen and (max-width: 480px) {
   body {
     font-size: 1.2rem;
     line-height: 1.5;
+  }
+  .grid-2 {
+    width: 100%;
   }
 }
