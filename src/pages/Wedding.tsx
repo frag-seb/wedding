@@ -7,6 +7,7 @@ import "./Wedding.css";
 import HeadlineImage from "../components/Gallery/HeadlineImage";
 
 const Wedding: React.FC = () => {
+  const cssPrefix = "Wedding";
   return (
     <Layout>
       <HeadlineImage>
@@ -17,8 +18,11 @@ const Wedding: React.FC = () => {
           </h2>
         </CountDownClock>
       </HeadlineImage>
-      <Content>
-        <h4>Wedding day</h4>
+      <Content className={`${cssPrefix}__content`}>
+        <h3>Wedding day</h3>
+        <div className={`${cssPrefix}__image`}>
+          <img src="/img/wedding_day.jpeg" />
+        </div>
       </Content>
     </Layout>
   );

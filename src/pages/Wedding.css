@@ -1,3 +1,7 @@
 .Wedding__content {
   margin-top: 50px;
 }
+
+.Wedding__image img {
+  width: 100%;
+}
