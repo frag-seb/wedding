@@ -1,7 +1,6 @@
 .Information__content {
   margin-top: 50px;
   padding-bottom: 50px;
-
 }
 
 .Information__info-box {
@@ -18,7 +17,6 @@
 .Information__list {
   padding-bottom: 25px;
 }
-
 
 @media only screen and (max-width: 480px) {
   .Information__means-of-transport .Information__list {
